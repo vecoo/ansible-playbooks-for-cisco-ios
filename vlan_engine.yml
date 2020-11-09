@@ -17,5 +17,5 @@
        ios_vlan:
          vlan_id: "{{ vlan }}"
          interfaces:
-           - Loopback 1
-           - loopback 2
+           - GigabitEthernet3/3
+           
