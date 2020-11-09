@@ -8,4 +8,4 @@
    - name: Save config to file
      copy:
        content: "{{ show_run.stdout[0] }}"
-       dest: "backups/{{inventory_hostname}}-{{ansible_facts.date_time.}}.txt"
+       dest: "/home/slimo/backups/{{inventory_hostname}}-{{ansible_facts.date_time.}}.txt"
